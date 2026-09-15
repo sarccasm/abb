@@ -326,7 +326,65 @@
       .flower-cluster.tl{left:2px}
       .flower-cluster.br{right:4px}
     }
+@media (max-width:800px){
 
+  .hero{
+    padding:80px 20px 40px;
+    min-height:auto;
+  }
+
+  .wrap{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+  }
+
+  .intro{
+    text-align:center;
+  }
+
+  h1{
+    font-size:3.8rem;
+    line-height:.9;
+  }
+
+  h1 span{
+    margin-left:0;
+  }
+
+  .sub{
+    font-size:1.35rem;
+    line-height:1.5;
+  }
+
+  .photo-wrap{
+    height:auto;
+    min-height:420px;
+    width:100%;
+    margin-top:20px;
+  }
+
+  .photo-card{
+    width:90vw;
+    max-width:420px;
+    aspect-ratio:4/5;
+  }
+
+  .rose-bouquet{
+    width:140px;
+  }
+
+  .flower-cluster.tl{
+    left:-20px;
+    top:20px;
+  }
+
+  .flower-cluster.br{
+    right:-20px;
+    bottom:0;
+  }
+
+}
     @media (prefers-reduced-motion:reduce){
       *{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}
       .petals{display:none}
